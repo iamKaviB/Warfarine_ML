@@ -1,0 +1,95 @@
+2025-11-25 09:28:46,993 - __main__ - INFO -   Model type: RandomForestRegressor
+2025-11-25 09:28:46,994 - __main__ - INFO -   Features: 17
+2025-11-25 09:28:46,995 - __main__ - INFO - Starting Warfarin Dose Prediction API
+2025-11-25 09:28:46,995 - __main__ - INFO - Model: RandomForestRegressor
+2025-11-25 09:28:46,995 - __main__ - INFO - Features: 17
+2025-11-25 09:29:09,236 - __main__ - INFO -   Model type: RandomForestRegressor
+2025-11-25 09:29:09,237 - __main__ - INFO -   Features: 17
+2025-11-25 09:29:09,238 - __main__ - INFO - Starting Warfarin Dose Prediction API
+2025-11-25 09:29:09,239 - __main__ - INFO - Model: RandomForestRegressor
+2025-11-25 09:29:09,239 - __main__ - INFO - Features: 17
+2025-11-25 09:29:09,254 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.20.115:5000
+2025-11-25 09:29:09,254 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 09:33:24,626 - __main__ - INFO -   Model type: RandomForestRegressor
+2025-11-25 09:33:24,627 - __main__ - INFO -   Features: 17
+2025-11-25 09:33:24,628 - __main__ - INFO - Starting Warfarin Dose Prediction API
+2025-11-25 09:33:24,628 - __main__ - INFO - Model: RandomForestRegressor
+2025-11-25 09:33:24,629 - __main__ - INFO - Features: 17
+2025-11-25 09:33:24,642 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.20.115:5000
+2025-11-25 09:33:24,642 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 09:33:31,903 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:31] "GET /health HTTP/1.1" 200 -
+2025-11-25 09:33:33,951 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:33] "GET /model_info HTTP/1.1" 200 -
+2025-11-25 09:33:35,992 - __main__ - INFO - Prediction request received: {'age': 60, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 5.5, 'current_inr': 1.8, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:33:36,050 - __main__ - INFO - Prediction successful: Current=5.5 mg, Predicted=5.03 mg, Recommended=5.50 mg
+2025-11-25 09:33:36,051 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:36] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:33:38,087 - __main__ - INFO - Prediction request received: {'age': 47, 'gender': 'Men', 'valve_position': 'Mechanical Mitral', 'current_dose': 4.0, 'current_inr': 3.91, 'target_inr_min': 2.5, 'target_inr_max': 3.5}
+2025-11-25 09:33:38,142 - __main__ - INFO - Prediction successful: Current=4.0 mg, Predicted=4.67 mg, Recommended=4.00 mg
+2025-11-25 09:33:38,143 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:38] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:33:40,181 - __main__ - INFO - Prediction request received: {'age': 69, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 3.5, 'current_inr': 2.2, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:33:40,223 - __main__ - INFO - Prediction successful: Current=3.5 mg, Predicted=3.54 mg, Recommended=3.50 mg
+2025-11-25 09:33:40,224 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:40] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:33:42,380 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:42] "POST /batch_predict HTTP/1.1" 200 -
+2025-11-25 09:33:44,443 - __main__ - INFO - Prediction request received: {'age': 60, 'gender': 'Female', 'current_dose': 5.5, 'current_inr': 2.95}
+2025-11-25 09:33:44,444 - __main__ - WARNING - Validation failed: ['Missing required field: valve_position', 'Missing required field: target_inr_min', 'Missing required field: target_inr_max']
+2025-11-25 09:33:44,444 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:44] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-11-25 09:33:46,473 - __main__ - INFO - Prediction request received: {'age': 150, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 5.5, 'current_inr': 2.95, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:33:46,473 - __main__ - WARNING - Validation failed: ['Age must be between 18 and 100']
+2025-11-25 09:33:46,474 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:46] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-11-25 09:33:48,516 - __main__ - INFO - Prediction request received: {'age': 60, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 5.5, 'current_inr': 10.0, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:33:48,516 - __main__ - WARNING - Validation failed: ['Current INR must be between 0.5 and 8.0']
+2025-11-25 09:33:48,517 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:48] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-11-25 09:33:50,549 - __main__ - INFO - Prediction request received: {'age': 69, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 3.5, 'current_inr': 2.2, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:33:50,591 - __main__ - INFO - Prediction successful: Current=3.5 mg, Predicted=3.54 mg, Recommended=3.50 mg
+2025-11-25 09:33:50,592 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:50] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:33:52,640 - __main__ - INFO - Prediction request received: {'age': 57, 'gender': 'Men', 'valve_position': 'Mechanical Mitral', 'current_dose': 3.5, 'current_inr': 1.7, 'target_inr_min': 2.5, 'target_inr_max': 3.5}
+2025-11-25 09:33:52,680 - __main__ - INFO - Prediction successful: Current=3.5 mg, Predicted=4.37 mg, Recommended=4.00 mg
+2025-11-25 09:33:52,681 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:52] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:33:54,732 - __main__ - INFO - Prediction request received: {'age': 41, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 2.44, 'current_inr': 6.5, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:33:54,777 - __main__ - INFO - Prediction successful: Current=2.44 mg, Predicted=5.79 mg, Recommended=2.50 mg
+2025-11-25 09:33:54,778 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:33:54] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:50:07,279 - __main__ - INFO -   Model type: RandomForestRegressor
+2025-11-25 09:50:07,281 - __main__ - INFO -   Features: 17
+2025-11-25 09:50:07,282 - __main__ - INFO - Starting Warfarin Dose Prediction API
+2025-11-25 09:50:07,283 - __main__ - INFO - Model: RandomForestRegressor
+2025-11-25 09:50:07,283 - __main__ - INFO - Features: 17
+2025-11-25 09:50:07,301 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.20.115:5000
+2025-11-25 09:50:07,302 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-25 09:50:18,182 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:18] "GET /health HTTP/1.1" 200 -
+2025-11-25 09:50:20,226 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:20] "GET /model_info HTTP/1.1" 200 -
+2025-11-25 09:50:22,267 - __main__ - INFO - Prediction request received: {'age': 60, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 5.5, 'current_inr': 1.8, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:50:22,336 - __main__ - INFO - Prediction successful: Current=5.5 mg, Predicted=5.03 mg, Recommended=6.00 mg
+2025-11-25 09:50:22,337 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:22] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:50:24,371 - __main__ - INFO - Prediction request received: {'age': 47, 'gender': 'Men', 'valve_position': 'Mechanical Mitral', 'current_dose': 4.0, 'current_inr': 3.91, 'target_inr_min': 2.5, 'target_inr_max': 3.5}
+2025-11-25 09:50:24,420 - __main__ - INFO - Prediction successful: Current=4.0 mg, Predicted=4.67 mg, Recommended=3.50 mg
+2025-11-25 09:50:24,421 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:24] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:50:26,460 - __main__ - INFO - Prediction request received: {'age': 69, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 3.5, 'current_inr': 2.2, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:50:26,518 - __main__ - INFO - Prediction successful: Current=3.5 mg, Predicted=3.54 mg, Recommended=3.50 mg
+2025-11-25 09:50:26,519 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:26] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:50:28,695 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:28] "POST /batch_predict HTTP/1.1" 200 -
+2025-11-25 09:50:30,753 - __main__ - INFO - Prediction request received: {'age': 60, 'gender': 'Female', 'current_dose': 5.5, 'current_inr': 2.95}
+2025-11-25 09:50:30,753 - __main__ - WARNING - Validation failed: ['Missing required field: valve_position', 'Missing required field: target_inr_min', 'Missing required field: target_inr_max']
+2025-11-25 09:50:30,754 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:30] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-11-25 09:50:32,798 - __main__ - INFO - Prediction request received: {'age': 150, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 5.5, 'current_inr': 2.95, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:50:32,799 - __main__ - WARNING - Validation failed: ['Age must be between 18 and 100']
+2025-11-25 09:50:32,801 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:32] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-11-25 09:50:34,844 - __main__ - INFO - Prediction request received: {'age': 60, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 5.5, 'current_inr': 10.0, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:50:34,845 - __main__ - WARNING - Validation failed: ['Current INR must be between 0.5 and 8.0']
+2025-11-25 09:50:34,846 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:34] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-11-25 09:50:36,890 - __main__ - INFO - Prediction request received: {'age': 69, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 3.5, 'current_inr': 2.2, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:50:36,935 - __main__ - INFO - Prediction successful: Current=3.5 mg, Predicted=3.54 mg, Recommended=3.50 mg
+2025-11-25 09:50:36,935 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:36] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:50:38,967 - __main__ - INFO - Prediction request received: {'age': 57, 'gender': 'Men', 'valve_position': 'Mechanical Mitral', 'current_dose': 3.5, 'current_inr': 1.7, 'target_inr_min': 2.5, 'target_inr_max': 3.5}
+2025-11-25 09:50:39,010 - __main__ - INFO - Prediction successful: Current=3.5 mg, Predicted=4.37 mg, Recommended=4.00 mg
+2025-11-25 09:50:39,011 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:39] "POST /predict HTTP/1.1" 200 -
+2025-11-25 09:50:41,044 - __main__ - INFO - Prediction request received: {'age': 41, 'gender': 'Female', 'valve_position': 'Mechanical Aortic', 'current_dose': 2.44, 'current_inr': 6.5, 'target_inr_min': 2.0, 'target_inr_max': 3.0}
+2025-11-25 09:50:41,085 - __main__ - INFO - Prediction successful: Current=2.44 mg, Predicted=5.79 mg, Recommended=2.00 mg
+2025-11-25 09:50:41,086 - werkzeug - INFO - 127.0.0.1 - - [25/Nov/2025 09:50:41] "POST /predict HTTP/1.1" 200 -

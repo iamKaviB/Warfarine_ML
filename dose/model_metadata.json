@@ -1,0 +1,31 @@
+{
+  "model_type": "RandomForestRegressor",
+  "n_features": 17,
+  "feature_names": [
+    "age",
+    "gender_enc",
+    "valve_position_enc",
+    "current_dose",
+    "current_inr",
+    "target_inr_min",
+    "target_inr_max",
+    "target_inr_mid",
+    "inr_deviation_from_target",
+    "inr_below_range",
+    "inr_above_range",
+    "inr_in_range",
+    "inr_to_target_ratio",
+    "inr_squared",
+    "age_group",
+    "dose_per_inr",
+    "dose_squared"
+  ],
+  "genders": [
+    "Female",
+    "Men"
+  ],
+  "valve_positions": [
+    "Mechanical Aortic",
+    "Mechanical Mitral"
+  ]
+}

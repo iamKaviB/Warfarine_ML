@@ -1,0 +1,395 @@
+feature,importance
+Status_Improved to range,0.14334459211693226
+Status_Persistently low,0.08239300864126017
+Status_Out of range decreased,0.04229339325537961
+Status_Out of range increased,0.031064129521775122
+Status_Same in range but increased,0.02749956921652297
+Status_Same in range,0.023705298268324758
+"If Yes
+How often did you eat leafy greens (spinach, kale, etc.) this week?_3-4 times",0.011443062019102345
+"If Yes
+How often did you eat leafy greens (spinach, kale, etc.) this week?_5+ times",0.01086035990730684
+Status_Persistently high,0.010479931031505081
+Status_Same in range but decreased,0.010392884520283023
+"If Yes ,
+How many extra doses?_2.0",0.01007322163543126
+Did you notice any symptoms_Shivering,0.009994139184362566
+Name of the medicine_Panadol,0.00887000265401424
+"If Yes ,
+How many extra doses?_Unknown",0.008786057144286685
+On which days did you consume them?_Regularly,0.008593771704256903
+What is your current INR value?_2.88,0.007845938486112031
+Did you notice any symptoms_Muscle aches,0.007840825066297285
+Who recommended the change?_Self,0.0074456812556699566
+Who recommended it?_Doctor,0.0065035340280833465
+Missed Dose Frequency Category_Frequently (>5 times),0.006206061585136713
+Who recommended it?_Unknown,0.006200686420919001
+Standard Range_2.5-3.5,0.006042584822277272
+Leafy Greens Consumption Category_Low (1-2 times),0.005801938109299778
+Usual portion size:_8g-10g,0.0055322462928736015
+Did you take any extra doses by mistake?,0.005416993238789362
+Leafy Greens Consumption Category_Unknown,0.005363199084626195
+Usual portion size:_40g-60g,0.005209919731114277
+"If Yes
+What kind of change?_Increased protein intake",0.005146959245788016
+"If Yes
+How often did you eat leafy greens (spinach, kale, etc.) this week?_Unknown",0.005145407190417633
+Did you notice any symptoms_Bruising,0.0051092941425204515
+Did you notice any symptoms_Bleeding,0.0050887425284884815
+Did you take any action after realizing the missed dose?_Took extra dose,0.005026150697750415
+What is your current INR value?_2.89,0.004983687851280201
+Leafy Greens Consumption Category_High (5+ times),0.00496253635431853
+Do you consume Vitamin K foods or not?,0.004854943255531363
+Usual portion size:_25g-30g,0.004621382016225282
+Did you inform your healthcare doctor?,0.004561526861491958
+"Did you notice any symptoms_Shivering, Muscle pain, Headache",0.004555202628358779
+Portion Size Category_Not specified,0.00442061311629632
+Did you notice any symptoms_Headache,0.004359984596818724
+Valve Type_Mechanical Mitral,0.00434570496039715
+Who recommended the change?_Nutritionist,0.004271667881772217
+"If Yes
+How often did you eat leafy greens (spinach, kale, etc.) this week?_1-2 times",0.004269625350616215
+Did you notice any symptoms_Fever,0.004233462342678924
+Have you started any new antibiotics medicines recommended by a doctor recently?,0.004165344106077371
+Usual portion size:_10g-15g,0.004135091005848572
+Name of the medicine_Unknown,0.004121453991762763
+Missed Dose Frequency Category_Rarely (1-2 times),0.004004888336335312
+How often do you usually forget to take warfarin in a month?_1-2 times,0.003785347475331288
+On which days did you consume them?_Occasionally,0.003784564081548043
+Were these doses missed consecutively or on different days?_Different Days,0.003775490293349506
+Portion Size Category_Large (25g-60g),0.003774010149091348
+When did you make these changes?_1 month ago,0.0037733980223095603
+Have you made any major dietary changes recently?,0.003749215973130549
+What is your current INR value?_2.6,0.0036950277260396373
+On which days did you consume them?_Twice a week,0.0036563311220816097
+On which days did you consume them?_Once a week,0.0036376318505015144
+On which days did you consume them?_Unknown,0.0035686948474479546
+Timestamp_2025-12-15 20:09:00,0.003563391129889866
+Portion Size Category_Small (8g-15g),0.003560579186493101
+What was the reason for missing the dose?_Forgot,0.003517986648629635
+"If Yes ,
+How many extra doses?_1.0",0.00348673842286458
+When did you make these changes?_Unknown,0.0034787110600931637
+Standard Range_2.0-3.0,0.003387094970731395
+Did you notice any symptoms_No Symptoms observed,0.0033870854525488124
+Leafy Greens Consumption Category_Moderate (3-4 times),0.0033596455477668758
+Portion Size Category_Medium (15g-25g),0.003309801786901081
+Were these doses missed consecutively or on different days?_Consecutively,0.0033035821506663763
+How often do you usually forget to take warfarin in a month?_Unknown,0.0032540004920395887
+How often do you usually forget to take warfarin in a month?_Less than 2 times,0.0032050506845768428
+On which days did you miss them?_Weekend,0.003155200876887091
+What was your INR value two months ago?_2.5,0.003125945376363089
+On which days did you consume them?_Daily,0.003112684412005042
+Did you take any action after realizing the missed dose?_Unknown,0.0030904792588978412
+Usual portion size:_Unknown,0.0030723724687103816
+What was the reason for missing the dose?_Unknown,0.003025681799448437
+What is your current INR value?_2.02,0.0030019832486283538
+What is your current INR value?_2.53,0.0029610503844005958
+Usual portion size:_15g-20g,0.0029507045393603664
+When did you make these changes?_3 months ago,0.00294743918037095
+What is your current INR value?_4.31,0.0029187277493615323
+When did you make these changes?_1 week ago,0.0028554404234952357
+Valve Type_Mechanical Aortic,0.0027114874737817142
+What is your current INR value?_1.29,0.002709249281696158
+Are you still taking it?,0.0026635723034220916
+On which days did you miss them?_Unknown,0.002642918561747797
+Did you miss any warfarin doses this week?,0.002636605320252909
+Did you take any action after realizing the missed dose?_Contacted doctor,0.002620430474638926
+Missed Dose Frequency Category_Occasionally (3-5 times),0.0026156484882687197
+Did you take any action after realizing the missed dose?_Skipped it,0.0025212871997819237
+What was your INR value two months ago?_3.04,0.002491597724371779
+Who recommended the change?_Unknown,0.002473902357938809
+On which days did you miss them?_Tuesday,0.002464904320592586
+When did you make these changes?_6 months ago,0.002453291063077694
+"If Yes
+What kind of change?_Unknown",0.002372638849382143
+What is your current INR value?_1.91,0.0023257957944503548
+What is your current INR value?_2.76,0.0022684213468921605
+Missed Dose Frequency Category_Unknown,0.0022677273845197374
+What was your INR value two months ago?_2.87,0.002252135275419765
+Who recommended it?_Pharmacist,0.0022301817546147426
+Timestamp_2025-12-18 14:36:00,0.0022202687358371517
+"If Yes
+What kind of change?_Reduced vitamin K foods",0.0021673990898160526
+Name of the medicine_Amiodarone,0.0021671640694900475
+What was your INR value two months ago?_2.57,0.002149642347005994
+Timestamp_2025-12-20 06:48:00,0.0021414526429413524
+What was your INR value two months ago?_2.4,0.0021395900241666633
+How often do you usually forget to take warfarin in a month?_3-5 times,0.0021395778339884726
+What was your INR value two months ago?_2.97,0.002119128454583853
+Timestamp_2025-12-06 15:06:00,0.0020872822415515125
+What was the reason for missing the dose?_Ran out of tablets,0.0020654699909648743
+Timestamp_2025-12-14 04:15:00,0.00206043738882482
+What is your current INR value?_3.47,0.002039606210498998
+What was your INR value two months ago?_2.46,0.0020349829758030103
+Timestamp_2025-12-15 21:37:00,0.0020192095503378145
+On which days did you miss them?_Monday,0.00198210417160203
+Were these doses missed consecutively or on different days?_Unknown,0.0019484043662806164
+What was the reason for missing the dose?_Side effects,0.0019275766925691878
+Did you take any action after realizing the missed dose?_Other,0.0019275763975818445
+What is your current INR value?_2.71,0.0018365229169413771
+Timestamp_2025-12-18 17:02:00,0.001810776246362046
+What was your INR value two months ago?_3.23,0.0017917944464057205
+What was your INR value two months ago?_1.95,0.0017716206993413383
+What is your current INR value?_2.14,0.001765678591838022
+What is your current INR value?_2.83,0.0017650484744931333
+What is your current INR value?_1.48,0.001763689605970577
+Who recommended the change?_Doctor,0.0017052777029698987
+Usual portion size:_20g-25g,0.0016981212697935021
+What was the reason for missing the dose?_Travelling,0.001697110452107865
+Timestamp_2025-12-12 18:42:00,0.0016905847146313358
+What is your current INR value?_2.34,0.0016904935678738109
+What was your INR value two months ago?_3.72,0.0016861679611309506
+What is your current INR value?_3.32,0.0016856731001384296
+What was your INR value two months ago?_2.51,0.0016653034257945376
+Timestamp_2025-12-16 08:26:00,0.0016605025882901441
+What is your current INR value?_3.27,0.001654857335281258
+What is your current INR value?_2.57,0.0016469790884079587
+What is your current INR value?_2.29,0.0016317186970281762
+What was your INR value two months ago?_2.9,0.001622032779874901
+What was your INR value two months ago?_3.4,0.0016181541260302007
+What was your INR value two months ago?_2.37,0.001610253892706279
+What was your INR value two months ago?_2.16,0.001591934930466804
+Timestamp_2025-12-18 08:36:00,0.0015910954099218003
+Timestamp_2025-12-06 15:02:00,0.0015821332997923024
+"If Yes
+What kind of change?_Increased green leaves",0.001575611700198684
+What was your INR value two months ago?_3.01,0.0015572725417436482
+Name of the medicine_Metronidazole,0.0015374374447945857
+Timestamp_2025-12-05 13:56:00,0.001530261088123024
+What is your current INR value?_3.11,0.0015124769364379782
+What is your current INR value?_2.51,0.0015093373688869352
+What was the reason for missing the dose?_Busy schedule,0.0015049867075888276
+Timestamp_2025-12-10 19:27:00,0.0014950677479488802
+What was your INR value two months ago?_2.14,0.0014889567243586638
+What is your current INR value?_2.67,0.00148137887007554
+What was your INR value two months ago?_1.85,0.0014619573574778547
+Timestamp_2025-12-05 12:20:00,0.0014545757483942978
+What is your current INR value?_2.55,0.001436244108710302
+Timestamp_2025-12-03 15:57:00,0.0014299623879038546
+What was your INR value two months ago?_2.49,0.001400369952283751
+What is your current INR value?_4.49,0.0013992255842969203
+Timestamp_2025-11-30 13:32:00,0.0013706641011077168
+Who recommended the change?_Family,0.0013353055043657713
+Timestamp_2025-11-29 17:18:00,0.0012749071779219528
+What was your INR value two months ago?_2.36,0.001263840065924153
+"If Yes
+What kind of change?_Started vegetarian diet",0.0012605007194940235
+Timestamp_2025-11-25 10:50:00,0.0012579575508117544
+What was your INR value two months ago?_1.83,0.001231742455929112
+What was your INR value two months ago?_1.66,0.0012260713250717285
+Name of the medicine_Verapamil,0.001222444507083061
+Timestamp_2025-12-23 04:39:00,0.001217810653874228
+What is your current INR value?_2.93,0.0012092843017834272
+Timestamp_2025-11-26 07:10:00,0.001195738982751218
+What is your current INR value?_3.08,0.0011782803846685716
+Timestamp_2025-11-26 09:14:00,0.001161973878029478
+How often do you usually forget to take warfarin in a month?_More than 5 times,0.0011553117525312765
+What was your INR value two months ago?_3.96,0.0011314125495634237
+What was your INR value two months ago?_2.01,0.0011309033413666872
+What was your INR value two months ago?_3.43,0.0011284874539028507
+Timestamp_2025-11-26 01:55:00,0.0011283306722709567
+What was your INR value two months ago?_3.05,0.0011257171580328468
+Timestamp_2025-12-12 06:45:00,0.0011221321192437248
+What was your INR value two months ago?_3.6,0.0011047322612594962
+What was your INR value two months ago?_2.43,0.0011018860527272755
+What is your current INR value?_2.11,0.0010925316882952469
+Timestamp_2025-12-07 11:44:00,0.0010917664007793677
+What is your current INR value?_3.44,0.0010776543673762509
+What was your INR value two months ago?_3.74,0.0010716522062657996
+Name of the medicine_Omeprazole,0.0010634819892820961
+What was your INR value two months ago?_1.67,0.0010501194776218923
+What is your current INR value?_2.22,0.0010478598576149053
+What is your current INR value?_2.17,0.001039186130412051
+Name of the medicine_Amoxicillin,0.0010343681490762068
+Who recommended it?_Self,0.0010315787893433873
+Timestamp_2025-12-19 19:00:00,0.0010186263837204154
+What is your current INR value?_2.95,0.0010178269897394593
+What is your current INR value?_3.45,0.0010003524876298782
+What is your current INR value?_3.94,0.000997149116131657
+Timestamp_2025-12-04 10:57:00,0.000994367969876562
+Timestamp_2025-12-14 19:51:00,0.0009887133508204521
+What is your current INR value?_2.1,0.0009746599239216359
+What was your INR value two months ago?_2.7,0.0009681362847791319
+On which days did you miss them?_Multiple days,0.000965470892508698
+What is your current INR value?_2.73,0.0009598835542430733
+What is your current INR value?_2.38,0.0009504906585963188
+Name of the medicine_Cetirizine,0.0009366304805206299
+Name of the medicine_Co-amoxiclav,0.0009358050707948209
+Timestamp_2025-12-07 03:50:00,0.0009351596338843217
+Timestamp_2025-12-14 19:20:00,0.0009334626718924475
+What was your INR value two months ago?_4.21,0.00093066523673657
+What is your current INR value?_3.67,0.0009104021716360602
+What was your INR value two months ago?_3.09,0.0009008259630353116
+Timestamp_2025-12-18 17:40:00,0.0008922317840950277
+Timestamp_2025-12-05 20:57:00,0.0008731181449592519
+What was your INR value two months ago?_1.99,0.00086243537923724
+Timestamp_2025-11-28 14:42:00,0.0008582871338450648
+Timestamp_2025-12-04 22:30:00,0.000854690957528348
+Timestamp_2025-12-22 19:08:00,0.0008479080851057781
+What is your current INR value?_2.97,0.0008477525227050779
+What was your INR value two months ago?_3.42,0.0008466328451822856
+Timestamp_2025-12-09 08:41:00,0.0008431335009986
+"If Yes
+What kind of change?_Started keto diet",0.0008385691869405447
+Timestamp_2025-12-23 18:46:00,0.000836489406659571
+What is your current INR value?_3.61,0.0008264815486027498
+What is your current INR value?_1.3,0.0008231028165309478
+Name of the medicine_Domperidone,0.0007993152960612007
+What is your current INR value?_4.07,0.0007855440805857632
+What was your INR value two months ago?_3.15,0.0007824790752380118
+Timestamp_2025-12-08 22:38:00,0.0007793822347963487
+Timestamp_2025-12-08 07:34:00,0.0007674940320415222
+What was your INR value two months ago?_2.81,0.0007661064135965772
+What is your current INR value?_1.19,0.0007655206628687346
+What is your current INR value?_2.52,0.0007477733391350214
+What is your current INR value?_2.96,0.0007447066513489071
+Timestamp_2025-12-05 16:37:00,0.0007407183495319033
+What is your current INR value?_1.64,0.0007271324158356856
+Timestamp_2025-12-17 22:07:00,0.0007177907214585167
+What is your current INR value?_1.43,0.0007143601661182496
+What was your INR value two months ago?_1.49,0.0007135328001860897
+What was your INR value two months ago?_2.47,0.0007131358690990007
+Timestamp_2025-11-28 19:56:00,0.000707155956999434
+What was your INR value two months ago?_1.22,0.000694412403078036
+Timestamp_2025-12-24 13:35:00,0.0006763740673277222
+Timestamp_2025-12-04 21:54:00,0.0006736366710083832
+Timestamp_2025-12-17 05:42:00,0.0006725746163585151
+Timestamp_2025-12-17 22:34:00,0.0006711515978305618
+What is your current INR value?_2.5,0.0006637393811095584
+What is your current INR value?_1.83,0.0006612898160148488
+Timestamp_2025-12-06 13:29:00,0.0006582724172410042
+What was your INR value two months ago?_1.68,0.00065212464656965
+What was your INR value two months ago?_3.45,0.0006483614554546665
+What was your INR value two months ago?_2.34,0.000646006331310957
+What was your INR value two months ago?_2.55,0.0006458152606428228
+Timestamp_2025-11-25 23:29:00,0.0006453057300514927
+Timestamp_2025-12-10 18:15:00,0.0006411707125241992
+What was your INR value two months ago?_2.39,0.00063535684880946
+Timestamp_2025-12-24 02:09:00,0.0006331174202445389
+What is your current INR value?_2.82,0.0006273324176374867
+Timestamp_2025-12-15 20:41:00,0.000625256587304225
+Timestamp_2025-12-02 01:45:00,0.0006096551257138228
+What was your INR value two months ago?_3.12,0.0006068541939797044
+What was your INR value two months ago?_2.61,0.0005842747975969794
+Timestamp_2025-12-15 07:25:00,0.0005706798594403018
+What was your INR value two months ago?_3.73,0.000567224266790402
+What was your INR value two months ago?_2.86,0.0005588435652676675
+Timestamp_2025-12-08 03:43:00,0.0005562735878182875
+What is your current INR value?_4.47,0.0005558444534446635
+What is your current INR value?_3.21,0.0005475959787460121
+Timestamp_2025-12-21 09:56:00,0.0005458324550085008
+What is your current INR value?_3.62,0.0005382529083558314
+What was your INR value two months ago?_3.36,0.0005375741482634463
+Timestamp_2025-12-07 03:47:00,0.0005351449923963703
+What was your INR value two months ago?_3.51,0.000534864780131331
+What is your current INR value?_2.61,0.0005304356774918797
+Timestamp_2025-11-24 02:13:00,0.0005196797693665595
+What was your INR value two months ago?_1.45,0.0005183945396898976
+Timestamp_2025-12-19 05:56:00,0.0005145982176097908
+What was your INR value two months ago?_3.48,0.0005145081394495879
+What was your INR value two months ago?_4.0,0.0005100567739005095
+Timestamp_2025-12-06 11:32:00,0.000500200412173302
+What is your current INR value?_2.91,0.0004939795138688231
+What was your INR value two months ago?_2.59,0.0004892860795580774
+What is your current INR value?_4.17,0.0004892771566287509
+Timestamp_2025-12-04 04:08:00,0.00048370866222262484
+Timestamp_2025-12-20 11:37:00,0.0004799160744931144
+What is your current INR value?_1.9,0.00047910399075510744
+What is your current INR value?_2.64,0.00047300603204654396
+What was your INR value two months ago?_1.56,0.00047035459397829995
+What was your INR value two months ago?_3.44,0.0004702765933026861
+What is your current INR value?_3.59,0.00046855076711889746
+What is your current INR value?_1.89,0.0004682727749021986
+Timestamp_2025-12-16 00:54:00,0.00046473620242124604
+Timestamp_2025-12-01 13:37:00,0.0004613244437502301
+Timestamp_2025-12-13 20:43:00,0.00045531153637712915
+What was your INR value two months ago?_2.32,0.00045356077678537
+What is your current INR value?_2.48,0.0004483521738601162
+What is your current INR value?_3.15,0.0004410571229131936
+What was your INR value two months ago?_1.89,0.0004397073951078062
+Timestamp_2025-12-18 23:49:00,0.0004362157489223188
+What was your INR value two months ago?_3.82,0.0004360490845109157
+What is your current INR value?_3.56,0.00042033241245085715
+What was your INR value two months ago?_2.05,0.000409421434878637
+What was your INR value two months ago?_2.66,0.0003931847968545217
+Timestamp_2025-12-18 10:43:00,0.0003848961898757894
+What is your current INR value?_1.47,0.00038407124556910465
+What was your INR value two months ago?_2.18,0.0003798928639616929
+What is your current INR value?_3.6,0.0003697551223801133
+Timestamp_2025-11-29 22:28:00,0.00036864349331167465
+Timestamp_2025-11-30 09:13:00,0.0003610134366590255
+Timestamp_2025-12-20 07:14:00,0.00035833749695502376
+Timestamp_2025-12-10 08:08:00,0.00035665982323433763
+What is your current INR value?_1.76,0.0003460470358094619
+What is your current INR value?_1.97,0.00034469442791486727
+What is your current INR value?_2.09,0.00034323302061384757
+Timestamp_2025-11-25 02:40:00,0.00033826248748857596
+Timestamp_2025-12-14 15:25:00,0.00033551939595978075
+What is your current INR value?_3.82,0.00033187882307452165
+What is your current INR value?_1.62,0.000322711391563137
+What is your current INR value?_2.05,0.00031770457283751454
+Timestamp_2025-12-20 19:43:00,0.0003031387813913692
+What was your INR value two months ago?_2.09,0.0002953781123400945
+Timestamp_2025-11-25 11:41:00,0.0002941946820184876
+What is your current INR value?_1.82,0.0002893580613295254
+What is your current INR value?_3.18,0.0002789941751705474
+Timestamp_2025-12-17 17:48:00,0.00026337503702328417
+Timestamp_2025-12-04 23:55:00,0.00025961558884359215
+What was your INR value two months ago?_1.41,0.0002563657186485968
+What was your INR value two months ago?_3.39,0.00025569395309657674
+Timestamp_2025-12-02 02:30:00,0.00025010208248264597
+What was your INR value two months ago?_1.39,0.00024747987787155805
+What is your current INR value?_1.33,0.00024387430586451792
+Timestamp_2025-12-20 18:58:00,0.00023108110314750793
+What was your INR value two months ago?_1.87,0.00021879925815399443
+Timestamp_2025-12-03 12:35:00,0.00021795559960106147
+Timestamp_2025-12-24 16:58:00,0.00021628652586282607
+Timestamp_2025-12-21 16:54:00,0.0002162665179512656
+What is your current INR value?_1.41,0.00021259461489570651
+What is your current INR value?_1.21,0.0002083774343776461
+Timestamp_2025-12-20 09:04:00,0.00020258412496855713
+Timestamp_2025-12-08 16:16:00,0.00020128824476650564
+Timestamp_2025-12-14 05:34:00,0.00018236074270557026
+What was your INR value two months ago?_1.74,0.0001821186105822754
+What is your current INR value?_1.79,0.00017819841403411512
+What was your INR value two months ago?_3.47,0.00016992118740540306
+Timestamp_2025-12-14 15:06:00,0.00016835975174602294
+What was your INR value two months ago?_2.03,0.0001671415004748332
+What is your current INR value?_1.37,0.00016513532160849804
+Timestamp_2025-12-14 17:18:00,0.00016406913584751312
+Timestamp_2025-12-18 14:02:00,0.00016033536647064604
+What is your current INR value?_1.06,0.00015349231811117979
+What is your current INR value?_3.17,0.0001520948531101706
+What is your current INR value?_1.61,0.0001496893012553257
+Timestamp_2025-12-13 10:10:00,0.00014927533609568095
+What was your INR value two months ago?_1.42,0.00014701293713846814
+What was your INR value two months ago?_2.67,0.00014275899604736036
+Timestamp_2025-12-16 08:39:00,0.00014130119304034338
+Timestamp_2025-12-15 23:34:00,0.00012548188011951298
+What is your current INR value?_2.26,0.0001208871505018159
+What was your INR value two months ago?_4.05,0.00011892999597467705
+What is your current INR value?_3.74,0.00010866770192451695
+What is your current INR value?_1.92,1.2944983818770183e-05
+What is your current INR value?_1.01,1.2612893587801455e-05
+What is your current INR value?_3.07,5.6672207949220135e-06
+Timestamp_2025-11-26 09:35:00,0.0
+Timestamp_2025-12-01 15:58:00,0.0
+Timestamp_2025-12-01 16:24:00,0.0
+Timestamp_2025-11-30 03:54:00,0.0
+What was your INR value two months ago?_2.58,0.0
+What is your current INR value?_2.42,0.0
+What was your INR value two months ago?_2.17,0.0
+What was your INR value two months ago?_2.26,0.0
+What was your INR value two months ago?_1.25,0.0
+What was your INR value two months ago?_1.81,0.0
+Timestamp_2025-11-29 19:54:00,0.0
+What was your INR value two months ago?_3.38,0.0
+What is your current INR value?_1.95,0.0
+What was your INR value two months ago?_3.54,0.0
+Timestamp_2025-12-14 17:17:00,0.0
+Timestamp_2025-12-15 07:30:00,0.0
+Timestamp_2025-12-06 17:45:00,0.0
+Timestamp_2025-12-12 01:48:00,0.0
+Timestamp_2025-12-05 22:15:00,0.0
+Timestamp_2025-12-05 04:18:00,0.0
